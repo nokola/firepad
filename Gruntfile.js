@@ -136,6 +136,6 @@ module.exports = function (grunt) {
 
   // Tasks
   grunt.registerTask('test', ['karma:unit']);
-  grunt.registerTask('build', ['coffeelint', 'coffee', 'concat', 'uglify', 'copy'])
+  grunt.registerTask('build', ['coffee', 'concat', 'uglify', 'copy'])
   grunt.registerTask('default', ['build', 'test']);
 };
